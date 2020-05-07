@@ -1,0 +1,9 @@
+def palindrome(num):
+    for i in range(num, num+num):
+        r = int(str(i)[::-1])
+        if num == r:
+            print (r)
+        else:
+            num += 1
+    
+palindrome(123)
